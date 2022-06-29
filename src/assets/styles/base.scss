@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --vt-c-white: #ffffff;
+  --vt-c-indigo: #2c3e50;
+  --vt-c-divider-light-1: rgba(60, 60, 60, 0.12);
+  --vt-c-text-light-1: var(--vt-c-indigo);
+}
+
+:root {
+  --color-background: var(--vt-c-white);
+  --color-border: var(--vt-c-divider-light-1);
+  --color-text: var(--vt-c-text-light-1);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  font-family: 'Roboto', sans-serif;
+}
